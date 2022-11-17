@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries and Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ec2bf2b54a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./custom-select.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <h1>Como esta organizado nuestro mundo? </h1>
+            <button class="btn-dark-mode">
+                <i class="fa-regular fa-moon"></i>
+                Dark Mode
+            </button>
+        </div>
+    </nav>
+    <header class="container filter-content my-2">
+        <form class="from-search" id="formulario">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Ingresa un pais" id="inputFormulario">
+        </form>
+        <div class="custom-select">
+            <select>
+                <option value="">Filter by Region</option>
+                <option value="">Todos</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europa</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="container grid" id="banderas">
+        
+    </main>
+
+    <script src="./dark-mode.js"></script>
+    <script src="./app.js"></script>
+    <script src="./custom-select.js"></script>
+    <script src="./formulario.js"></script>
+
+</body>
+</html>
