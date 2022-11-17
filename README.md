@@ -25,8 +25,8 @@ Proyecto de seleccion bootcamp para Developer  Full Stack MERM de [escalab acade
 >
 >
 >
-> 1:24:00
-> Segunda parte: 37:35:00
+> 
+> 
 > Desarrollador Yorman Amaro, 
 
 ## Que todo lo que pase por tu mente termine en realidad......
